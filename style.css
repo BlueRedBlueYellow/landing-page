@@ -51,6 +51,27 @@ body {
     flex: 1;
 }
 
+.random-info {
+    text-align: center;
+    height: 600px;
+    padding: 60px;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 36px;
+    margin-bottom: 32px;
+}
+
+.illustrations {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.illustrations img {
+    width: 200px;
+}
 
 ul {
     display: flex;
