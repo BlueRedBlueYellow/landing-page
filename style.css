@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+/* see how you can commpres stuff better when done */
 
 body {
     font-family: "Roboto", Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
+
 
 .header, .footer {
     display: flex;
@@ -21,6 +23,26 @@ body {
 
 .footer {
     justify-content: center;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-color: #1f2937;
+}
+
+.hero-card {
+    background-color: rgb(75, 75, 10);
+    display: flex;
+    flex: 0 1 700px;
+    height: 300px;
+}
+
+.card-item {
+    flex: 1;
 }
 
 
