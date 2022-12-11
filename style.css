@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 /* see how you can commpres stuff better when done */
+html {
+    box-sizing: border-box;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 body {
     font-family: "Roboto", Helvetica, sans-serif;
@@ -11,7 +17,7 @@ body {
 .header, .footer {
     display: flex;
     align-items: center;
-    height: 32px;
+    height: 64px;
     padding: 20px 20px;
     background-color: #1f2937;
     color: white;
