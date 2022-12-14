@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-/* see how you can commpres stuff better when done */
+/* see how you can compress stuff better when done */
 html {
     box-sizing: border-box;
   }
@@ -13,6 +13,7 @@ body {
     padding: 0;
 }
 
+/* Header and Footer */
 
 .header, .footer {
     display: flex;
@@ -30,6 +31,15 @@ body {
 .footer {
     justify-content: center;
 }
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    gap: 8px;
+}
+
+/* Hero */
 
 
 .hero {
@@ -50,6 +60,9 @@ body {
 .card-item {
     flex: 1;
 }
+
+/* Pictures/Illustrations section */
+
 
 .random-info {
     text-align: center;
@@ -73,9 +86,3 @@ body {
     width: 200px;
 }
 
-ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    gap: 8px;
-}
