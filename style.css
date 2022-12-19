@@ -41,7 +41,6 @@ ul {
 
 /* Hero */
 
-
 .hero {
     display: flex;
     align-items: center;
@@ -61,8 +60,7 @@ ul {
     flex: 1;
 }
 
-/* Pictures/Illustrations section */
-
+/* Info section */
 
 .info-section {
     text-align: center;
