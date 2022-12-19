@@ -68,7 +68,7 @@ ul {
 }
 
 .title {
-    font-weight: 800;
+    font-weight: 500;
     font-size: 36px;
     margin-bottom: 32px;
 }
@@ -81,5 +81,29 @@ ul {
 
 .illustrations img {
     width: 200px;
+}
+
+/* Quote section */
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 600px;
+}
+
+.quote-text {
+    width: 900px;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote-author {
+    text-align: end;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
 }
 
