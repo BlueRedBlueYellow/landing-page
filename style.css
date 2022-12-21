@@ -69,14 +69,15 @@ ul {
 
 .title {
     font-weight: 500;
-    font-size: 36px;
-    margin-bottom: 32px;
+    font-size: 40px;
+    margin-bottom: 128px;
 }
 
 .illustrations {
     display: flex;
     gap: 20px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .illustrations img {
@@ -94,7 +95,7 @@ ul {
 }
 
 .quote-text {
-    width: 900px;
+    width: 50%;
     font-size: 40px;
     font-style: italic;
     font-weight: 200;
@@ -106,4 +107,3 @@ ul {
     font-style: normal;
     font-weight: 500;
 }
-
