@@ -8,6 +8,7 @@ html {
 
 body {
     font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 18px;
     margin: 0;
     padding: 0;
 }
@@ -106,4 +107,66 @@ ul {
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
+}
+
+/* Sign up section */
+
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    height: 500px;
+}
+
+.sign-up-container {
+    display: flex;
+    padding: 0 100px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 1200px;
+    border: solid #3882F6 5px;
+    border-radius: 15px;
+    background-color: #3882F6;
+}
+
+.sign-up-container {
+    display: flex;
+    padding: 0 50px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 60%;
+    border: solid #3882F6 5px;
+    border-radius: 15px;
+    background-color: #3882F6;
+    color: white;
+}
+
+.sign-up-text, .sign-up-button {
+    margin: 40px;
+}
+
+.sign-up-header {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+}
+
+.sign-up-text {
+    flex: 1;
+}
+
+.sign-up-button {
+    font-size: inherit;
+    font-family: "Roboto";
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+    padding: 10px 45px;
+    background-color: #3882F6;
+    border: solid #ffffff 2px;
+    border-radius: 5px;
 }
