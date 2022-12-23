@@ -121,18 +121,6 @@ ul {
 
 .sign-up-container {
     display: flex;
-    padding: 0 100px;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    width: 1200px;
-    border: solid #3882F6 5px;
-    border-radius: 15px;
-    background-color: #3882F6;
-}
-
-.sign-up-container {
-    display: flex;
     padding: 0 50px;
     justify-content: center;
     align-items: center;
