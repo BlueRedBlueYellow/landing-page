@@ -17,9 +17,7 @@ body {
 
 .header, .footer {
     display: flex;
-    align-items: center;
-    height: 64px;
-    padding: 20px 20px;
+    flex: 0 1 1000px;
     background-color: #1f2937;
     color: white;
 }
@@ -51,7 +49,6 @@ ul {
 
 .hero-card {
     display: flex;
-    flex: 0 1 1000px;
     height: 275px;
 }
 
@@ -87,6 +84,11 @@ ul {
 
 .card-item {
     flex: 1;
+}
+
+/* Hero, Header, and Footer padding */
+.header, .footer, .hero {
+    padding: 20px 350px;
 }
 
 /* Info section */
@@ -151,7 +153,7 @@ ul {
 .sign-up-container {
     display: flex;
     flex: 0 1 60%;
-    padding: 0 50px;
+    padding: 0 100px;
     justify-content: center;
     align-items: center;
     height: 200px;
@@ -159,10 +161,6 @@ ul {
     border-radius: 15px;
     background-color: #3882F6;
     color: white;
-}
-
-.sign-up-text, .sign-up-button {
-    margin: 40px;
 }
 
 .sign-up-header {
