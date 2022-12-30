@@ -15,11 +15,16 @@ body {
 
 /* Header and Footer */
 
+.header-section {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
 .header, .footer {
     display: flex;
-    flex: 0 1 500px;
-    padding: 20px 20px;
-    background-color: #1f2937;
+    flex: 0 1 1000px;
+    padding: 20px 0px;
     color: white;
 }
 
