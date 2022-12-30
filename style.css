@@ -17,7 +17,8 @@ body {
 
 .header, .footer {
     display: flex;
-    flex: 0 1 1000px;
+    flex: 0 1 500px;
+    padding: 20px 20px;
     background-color: #1f2937;
     color: white;
 }
@@ -49,6 +50,7 @@ ul {
 
 .hero-card {
     display: flex;
+    flex: 0 1 1000px;
     height: 275px;
 }
 
@@ -84,11 +86,6 @@ ul {
 
 .card-item {
     flex: 1;
-}
-
-/* Hero, Header, and Footer padding */
-.header, .footer, .hero {
-    padding: 20px 350px;
 }
 
 /* Info section */
